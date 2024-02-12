@@ -20,7 +20,6 @@ const ChatTopbar = async ({ params }: { params: { id: string } }) => {
 				</Button>
 				<ChatUserInfo userData={userData} />
 			</div>
-			{/* right */}
 			<DeleteMessagesButton />
 		</div>
 	);
