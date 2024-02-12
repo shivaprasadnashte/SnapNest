@@ -9,7 +9,6 @@ export const metadata: Metadata = {
 	description: "SnapChat alternative for programmers built by Next.js",
 };
 
-// A Layout is shared ui
 export default function RootLayout({ children }: { children: React.ReactNode }) {
 	return (
 		<html lang='en'>
