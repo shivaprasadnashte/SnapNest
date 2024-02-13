@@ -46,7 +46,7 @@ export const sendMessageAction = async (
     if (messageType === "image") {
       uploadedResponse = await cloudinary.uploader.upload(content);
     }
-
+//  console.log("uploadedResponse", uploadedResponse)
     const newMessage: IMessageDocument = await Message.create({
       sender: senderId,
       receiver: receiverId,
